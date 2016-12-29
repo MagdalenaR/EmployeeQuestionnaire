@@ -1,11 +1,14 @@
 package view;
 
+import javax.swing.JComponent;
 import javax.swing.JFrame;
 
 import javax.swing.JTable;
 
 import java.awt.BorderLayout;
-import javax.swing.JPanel;
+import java.awt.event.MouseEvent;
+
+import javax.swing.JScrollPane;
 import javax.swing.table.DefaultTableModel;
 
 public class MainWindow extends JFrame {
@@ -16,11 +19,27 @@ public class MainWindow extends JFrame {
 	@SuppressWarnings("serial")
 	public MainWindow(Object[][] objects) {
 
-		JPanel panel = new JPanel();
-		getContentPane().add(panel, BorderLayout.CENTER);
+		table1 = new JTable(){
+			
+			//Implement table cell tool tips.           
+            public String getToolTipText(MouseEvent e) {
+                String tip = null;
+                java.awt.Point p = e.getPoint();
+                int rowIndex = rowAtPoint(p);
 
-		table1 = new JTable();
-		table1.setModel(new DefaultTableModel(objects, new String[] { "Short name", "Name", "Points" }) {
+                try {
+                    if(rowIndex != 0){
+                      tip = objects[rowIndex][3].toString();
+                    }
+                } catch (RuntimeException e1) {
+                    //catch null pointer exception if mouse is over an empty line
+                }
+                return tip;
+            }	
+		};
+		
+		table1.setModel(new DefaultTableModel(objects,
+				new String[] { "ID", "Osi¹gniêcie", "Punkty" }) {
 
 			boolean[] columnEditables = new boolean[] { false, false, false };
 
@@ -29,13 +48,14 @@ public class MainWindow extends JFrame {
 			}
 		});
 		
-		table1.getColumnModel().getColumn(0).setPreferredWidth(50);
-		table1.getColumnModel().getColumn(1).setPreferredWidth(600);
-		table1.getColumnModel().getColumn(2).setPreferredWidth(50);
-		
-		panel.add(table1);
+		table1.getColumnModel().getColumn(0).setPreferredWidth(30);
+		table1.getColumnModel().getColumn(1).setPreferredWidth(450);
+		table1.getColumnModel().getColumn(2).setPreferredWidth(30);
 
-		setSize(700, 500);
+		JScrollPane pane = new JScrollPane(table1);
+		getContentPane().add(pane, BorderLayout.CENTER);
+
+		setSize(600, 400);
 		setVisible(true);
 	}
 

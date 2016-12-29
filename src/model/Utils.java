@@ -22,10 +22,9 @@ public class Utils {
 
 			for (Object obj : achievementsFromFile) {
 				JSONObject jsonObject = (JSONObject) obj;
-				achievementsList
-						.add(new Achievement(jsonObject.get("short"), jsonObject.get("name"), jsonObject.get("score")));
+				achievementsList.add(new Achievement(jsonObject.get("short"), jsonObject.get("name"),
+						jsonObject.get("score"), jsonObject.get("description")));
 			}
-
 			return listToArray(achievementsList);
 
 		} catch (Exception e) {

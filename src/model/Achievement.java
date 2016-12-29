@@ -2,12 +2,13 @@ package model;
 
 public class Achievement {
 	
-	private String shortName, name, points;
+	private String shortName, name, points, description;
 
-    public Achievement(Object shotName, Object name, Object points) {
+    public Achievement(Object shotName, Object name, Object points, Object description) {
         this.shortName = (String) shotName;
         this.name = (String) name;
         this.points = (String) points;
+        this.description = (String) description;
     }
 
     public String getShortName() {
@@ -33,9 +34,17 @@ public class Achievement {
     public void setPoints(String points) {
         this.points = points;
     }
-    
+     
+	public String getDescription() {
+		return description;
+	}
+
+	public void setDescription(String description) {
+		this.description = description;
+	}
+
 	public Object[] toObjectArray() {
-    	return new Object[] {getShortName(), getName(), getPoints()};
+    	return new Object[] {getShortName(), getName(), getPoints(), getDescription()};
     }
 
 }
