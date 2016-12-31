@@ -11,7 +11,13 @@ public class Achievement {
         this.description = (String) description;
     }
 
-    public String getShortName() {
+    public Achievement(String name, String points, String description) {
+		this.name = name;
+		this.points = points;
+		this.description = description;
+	}
+
+	public String getShortName() {
         return shortName;
     }
 
