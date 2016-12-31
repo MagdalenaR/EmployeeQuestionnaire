@@ -10,7 +10,7 @@ import org.json.simple.parser.JSONParser;
 
 public class Utils {
 
-	public static Object[][] readDataFromJsonFile() {
+	public static List<Achievement> readDataFromJsonFile() {
 
 		JSONParser parser = new JSONParser();
 
@@ -25,7 +25,7 @@ public class Utils {
 				achievementsList.add(new Achievement(jsonObject.get("short"), jsonObject.get("name"),
 						jsonObject.get("score"), jsonObject.get("description")));
 			}
-			return listToArray(achievementsList);
+			return achievementsList;
 
 		} catch (Exception e) {
 			e.printStackTrace();
