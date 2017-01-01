@@ -33,33 +33,22 @@ public class Utils {
 		}
 		return null;
 	}
-	
+
+	@SuppressWarnings("unchecked")
 	public static void writeDataToJsonFile(List<Achievement> achievements) {
-		
+
 		JSONArray achievementsToFile = new JSONArray();
-		
-		for(Achievement ach : achievements) {
+
+		for (Achievement ach : achievements) {
 			JSONObject jsonObject = new JSONObject();
 			jsonObject.put("name", ach.getName());
 			jsonObject.put("points", ach.getPoints());
-			achievementsToFile.add(jsonObject);	
+			achievementsToFile.add(jsonObject);
 		}
-		
-//		JSONObject obj = new JSONObject();
-//		obj.put("Name", "crunchify.com");
-//		obj.put("Author", "App Shah");
-// 
-//		JSONArray company = new JSONArray();
-//		company.add("Compnay: eBay");
-//		company.add("Compnay: Paypal");
-//		company.add("Compnay: Google");
-//		obj.put("Company List", company);
- 
-		// try-with-resources statement based on post comment below :)
-		try (FileWriter file = new FileWriter("file1.txt")) {
+
+		try (FileWriter file = new FileWriter("Report.json")) {
 			file.write(achievementsToFile.toJSONString());
-			System.out.println("Successfully Copied JSON Object to File...");
-			System.out.println("\nJSON Object: " + achievementsToFile);
+			System.out.println("JSON Object: " + achievementsToFile);
 		} catch (IOException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();

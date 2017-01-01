@@ -42,27 +42,26 @@ public class DDWindow extends JFrame {
 		JScrollPane scrollPane = new JScrollPane(panel);
 		
 		scrollPane.setBounds(12, 110, 758, 374);
-	//	scrollPane.setSize(758, 448);
 		getContentPane().add(scrollPane);
 		
-		JLabel lblPunkty = new JLabel("Punkty");
-		lblPunkty.setBounds(681, 64, 44, 16);
-		getContentPane().add(lblPunkty);
+		JLabel lblPoints = new JLabel("Punkty");
+		lblPoints.setBounds(681, 64, 44, 16);
+		getContentPane().add(lblPoints);
 		
-		JLabel lblZdobyte = new JLabel("zdobyte / max");
-		lblZdobyte.setBounds(661, 81, 81, 16);
-		getContentPane().add(lblZdobyte);
+		JLabel lblPoints2 = new JLabel("zdobyte / max");
+		lblPoints2.setBounds(661, 81, 81, 16);
+		getContentPane().add(lblPoints2);
 		
 		JButton btnMainWindow = new JButton("Strona g\u0142\u00F3wna");
-		btnMainWindow.setBounds(337, 497, 119, 25);
+		btnMainWindow.setBounds(337, 497, 120, 25);
 		getContentPane().add(btnMainWindow);
 		
 		JButton btnPrevious = new JButton("Wstecz");
-		btnPrevious.setBounds(12, 497, 97, 25);
+		btnPrevious.setBounds(12, 497, 100, 25);
 		getContentPane().add(btnPrevious);
 		
 		JButton btnNext = new JButton("Dalej");
-		btnNext.setBounds(673, 497, 97, 25);
+		btnNext.setBounds(673, 497, 100, 25);
 		getContentPane().add(btnNext);
 
 		int j = 20;

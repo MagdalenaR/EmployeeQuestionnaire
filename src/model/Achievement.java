@@ -17,7 +17,6 @@ public class Achievement {
 		this.points = points;
 	}
 
-
 	public String getShortName() {
 		return shortName;
 	}
