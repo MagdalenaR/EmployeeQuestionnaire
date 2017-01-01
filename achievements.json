@@ -2,73 +2,73 @@
         {
         "short":"DD",
         "name":"Dodatkowe osi¹gniêcia dydaktyczne",
-        "score":"0/0",
+        "points":"0/0",
         "description":"Dodatkowe osi¹gniêcia dydaktyczne"
         },
         {
         "short":"NB1",
         "name":"Uzyskanie tytu³u lub stopnia naukowego",
-        "score":"0/0",
+        "points":"0/0",
         "description":"Uzyskanie w okresie ocenianym tytu³u lub stopnia naukowego"
         },
         {
         "short":"NB2",
         "name":"Realizowane projekty badawcze i projekty celowe oraz umowy z innymi podmiotami",
-        "score":"0/0",
+        "points":"0/0",
         "description":"Realizowane w okresie ocenianym projekty badawcze i projekty celowe oraz umowy z innymi podmiotami"
         },
         {
         "short":"NB3",
         "name":"Uzyskanie nagród i wyró¿nieñ miêdzynarodowych i krajowych",
-        "score":"0/0",
+        "points":"0/0",
         "description":"Uzyskanie nagród i wyró¿nieñ miêdzynarodowych i krajowych"
         },
         {
         "short":"NB4",
         "name":"Publikacje naukowe recenzowane i referaty na konferencjach",
-        "score":"0/0",
+        "points":"0/0",
         "description":"Publikacje naukowe recenzowane i referaty na konferencjach"
         },
         {
         "short":"NB4a",
         "name":"Twórczy dorobek w zakresie dzia³alnoœci o indywidualnym charakterze",
-        "score":"0/0",
+        "points":"0/0",
         "description":"Twórczy dorobek w zakresie dzia³alnoœci o indywidualnym charakterze wnosz¹cy znaczny wk³ad w rozwój dziedzin sztuki oraz wchodz¹cy w ich sk³ad dyscyplin artystycznych"
         },
         {
         "short":"NB5",
         "name":"Monografie naukowe, podrêczniki akademickie",
-        "score":"0/0",
+        "points":"0/0",
         "description":"Monografie naukowe, podrêczniki akademickie"
         },
         {
         "short":"NB6",
         "name":"Opatentowane wynalazki, prawa ochronne na wzory u¿ytkowe (tak¿e wspó³autorstwo)",
-        "score":"0/0",
+        "points":"0/0",
         "description":"Opatentowane wynalazki, prawa ochronne na wzory u¿ytkowe (tak¿e wspó³autorstwo)"
         },
         {
         "short":"NB7",
         "name":"Wdro¿enia",
-        "score":"0/0",
+        "points":"0/0",
         "description":"Wdro¿enia"
         },
         {
         "short":"NB8",
         "name":"Uzyskane œrodki finansowe dla P£",
-        "score":"0/0",
+        "points":"0/0",
         "description":"Uzyskane œrodki finansowe dla P£, pozyskane ze wszelkich Ÿróde³ poza dotacjami celowymi, grantami badawczymi, wdro¿eniami, licencjami, udokumentowane fakturami lub innymi dokumentami"
         },
         {
         "short":"NB9",
         "name":"Kszta³cenie kadry naukowej",
-        "score":"0/0",
+        "points":"0/0",
         "description":"Kszta³cenie kadry naukowej"
         },
         {
         "short":"ORG",
         "name":"Uczestnictwo w pracach organizacyjnych Uczelni",
-        "score":"0/0",
+        "points":"0/0",
         "description":"Uczestnictwo w pracach organizacyjnych Uczelni"
         }
 ]

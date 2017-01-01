@@ -7,16 +7,24 @@ import javax.swing.JTable;
 
 import java.awt.BorderLayout;
 import java.awt.event.MouseEvent;
+import java.util.ArrayList;
+import java.util.List;
 
 import javax.swing.JScrollPane;
 import javax.swing.table.DefaultTableModel;
 
 import model.Utils;
+import model.Achievement;
 
 import java.awt.event.MouseAdapter;
+import javax.swing.JPanel;
+import javax.swing.JButton;
+import java.awt.event.ActionListener;
+import java.awt.event.ActionEvent;
 
 public class MainWindow extends JFrame {
 
+	public static final List<Achievement> resultList = new ArrayList<Achievement>();
 	private static final long serialVersionUID = 1L;
 	private JTable table1;
 
@@ -32,7 +40,7 @@ public class MainWindow extends JFrame {
 				int rowIndex = rowAtPoint(p);
 
 				try {
-					tip = objects[rowIndex][3].toString();
+					tip = objects[rowIndex][4].toString();
 				} catch (RuntimeException e1) {
 					// catch null pointer exception if mouse is over an empty
 					// line
@@ -67,8 +75,17 @@ public class MainWindow extends JFrame {
 
 		JScrollPane pane = new JScrollPane(table1);
 		getContentPane().add(pane, BorderLayout.CENTER);
+		
+		JButton btnZapisz = new JButton("Zapisz");
+		btnZapisz.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent arg0) {
+				Utils.writeDataToJsonFile(resultList);
+			}
+		});
+		pane.setRowHeaderView(btnZapisz);
 
 		setSize(600, 400);
+		setDefaultCloseOperation(HIDE_ON_CLOSE);
 		setVisible(true);
 	}
 
