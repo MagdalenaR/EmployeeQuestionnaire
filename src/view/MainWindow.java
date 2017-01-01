@@ -13,7 +13,7 @@ import java.util.List;
 import javax.swing.JScrollPane;
 import javax.swing.table.DefaultTableModel;
 
-import model.Utils;
+import controller.Utils;
 import model.Achievement;
 
 import java.awt.event.MouseAdapter;

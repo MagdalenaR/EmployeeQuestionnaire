@@ -1,4 +1,4 @@
-package model;
+package controller;
 
 import java.io.FileReader;
 import java.io.FileWriter;
@@ -9,6 +9,8 @@ import java.util.List;
 import org.json.simple.JSONArray;
 import org.json.simple.JSONObject;
 import org.json.simple.parser.JSONParser;
+
+import model.Achievement;
 
 public class Utils {
 
