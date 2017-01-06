@@ -14,6 +14,7 @@ import model.Achievement;
 
 public class Utils {
 
+	//wczytywac od parametru i, dla konkretnych okienek
 	public static List<Achievement> readDataFromJsonFile(String fileName) {
 
 		JSONParser parser = new JSONParser();
@@ -22,6 +23,7 @@ public class Utils {
 			List<Achievement> achievementsList = new ArrayList<Achievement>();
 
 			for (Object obj : achievementsFromFile) {
+				
 				JSONObject jsonObject = (JSONObject) obj;
 				achievementsList.add(new Achievement(jsonObject.get("short"), jsonObject.get("name"),
 						jsonObject.get("points"), jsonObject.get("maxPoints"), jsonObject.get("description")));

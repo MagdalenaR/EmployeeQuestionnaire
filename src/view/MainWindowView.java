@@ -25,14 +25,14 @@ import java.awt.Font;
 import java.awt.SystemColor;
 import javax.swing.border.LineBorder;
 
-public class MainWindow extends JFrame {
+public class MainWindowView extends JFrame {
 
 	public static final List<Achievement> resultList = new ArrayList<Achievement>();
 	private static final long serialVersionUID = 1L;
 	private JTable table1;
 
 	@SuppressWarnings("serial")
-	public MainWindow(Object[][] objects) {
+	public MainWindowView(Object[][] objects) {
 
 		JPanel panel = new JPanel();
 		panel.setBackground(SystemColor.control);
@@ -70,7 +70,10 @@ public class MainWindow extends JFrame {
 				java.awt.Point p = e.getPoint();
 				int rowIndex = table1.rowAtPoint(p);
 				if (rowIndex == 0) {
-					new DDWindow(Utils.readDataFromJsonFile("educationalAchievements.json"));
+					new DDWindowView(Utils.readDataFromJsonFile("achievements.json"), Utils.readDataFromJsonFile("educationalAchievements.json"));
+				}
+				if (rowIndex == 1) {
+					new NB1WindowView(Utils.readDataFromJsonFile("achievements.json"), Utils.readDataFromJsonFile("educationalAchievements.json"));
 				}
 			}
 		});
