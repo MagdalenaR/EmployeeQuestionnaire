@@ -1,0 +1,716 @@
+[
+	{
+		"shortName":"DD",
+        "name":"Dodatkowe osi¹gniêcia dydaktyczne",
+        "points":"0",
+        "description":"Dodatkowe osi¹gniêcia dydaktyczne",
+		"achievementsList": [
+			{
+	        "name":"wydanie podrêcznika lub skryptu, tak¿e wydanie internetowe",
+	        "gainedPoints":"0.0",
+	        "points":"1.0",
+	        "maxPoints":"1.0",
+	        "description":"dotyczy wydania pierwszego lub kolejnego, <br> ale pod warunkiem dokonania istotnych poprawek i uzupe³nieñ"
+	        },
+	        {
+	        "name":"przygotowanie materia³ów dydaktycznych w Internecie",
+	        "gainedPoints":"0.0",
+	        "points":"1.0",
+	        "maxPoints":"1.0",
+	        "description":""
+	        },
+	        {
+	        "name":"przygotowanie materia³ów multimedialnych do prowadzonych zajêæ",
+	        "gainedPoints":"0.0",
+	        "points":"0.2",
+	        "maxPoints":"0.2",
+	        "description":"nie dotyczy korzystania z materia³ów audiowizualnych"
+	        },
+	        {
+	        "name":"opracowanie programów nowych przedmiotów",
+	        "gainedPoints":"0.0",
+	        "points":"0.4",
+	        "maxPoints":"0.4",
+	        "description":""
+	        },
+	        {
+	        "name":"prowadzenie zajêæ z nowego przedmiotu",
+	        "gainedPoints":"0.0",
+	        "points":"1",
+	        "maxPoints":"-",
+	        "description":"za ka¿dy 1 pkt"
+	        },
+	        {
+	        "name":"przygotowanie i uruchomienie nowego stanowiska laboratoryjnego",
+	        "gainedPoints":"0.0",
+	        "points":"0,2",
+	        "maxPoints":"0,2",
+	        "description":""
+	        },
+	        {
+	        "name":"opieka nad doktorantami",
+	        "gainedPoints":"0.0",
+	        "points":"0,1",
+	        "maxPoints":"0,5",
+	        "description":"za ka¿dy 0,1 pkt"
+	        },
+	        {
+	        "name":"opieka nad pracami magisterskimi wyró¿nionymi przez rektora lub poza P£",
+	        "gainedPoints":"0.0",
+	        "points":"0,5",
+	        "maxPoints":"-",
+	        "description":"ka¿dy po max 0,5"
+	        },
+	        {
+	        "name":"szczególne osi¹gniêcia studentów podopiecznych",
+	        "gainedPoints":"0.0",
+	        "points":"0,3",
+	        "maxPoints":"0,3",
+	        "description":""
+	        },
+	        {
+	        "name":"kierownictwo i opieka nad pracami: magistersk¹, in¿yniersk¹ lub licencjack¹",
+	        "gainedPoints":"0.0",
+	        "points":"-",
+	        "maxPoints":"0,5",
+	        "description":"praca magisterska (0,2 pkt.), in¿ynierska lub licencjacka (0,1 pkt)"
+	        },
+	        {
+	        "name":"prowadzenie zajêæ w jêzykach obcych",
+	        "gainedPoints":"0.0",
+	        "points":"?",
+	        "maxPoints":"0,5",
+	        "description":"0,5 pkt.* stosunek liczby godz. zajêæ w jêzyku obcym <br> do liczby godzin pensum w okresie ocenianym"
+	        },
+	        {
+	        "name":"docenci, starsi wyk³adowcy, wyk³adowcy i adiunkci - prowadzenie wyk³adów",
+	        "gainedPoints":"0.0",
+	        "points":"?",
+	        "maxPoints":"0,5",
+	        "description": "0,5 pkt.* W/P, <br> gdzie: W - liczba godzin wyk³adów w okresie ocenianym; <br> P - suma pensum rocznych w okresie ocenianym"
+	        },
+	        {
+	        "name":"podnoszenie kwalifikacji dydaktycznych",
+	        "gainedPoints":"0.0",
+	        "points":"?",
+	        "maxPoints":"1,0",
+	        "description": "za ukoñczenie w okresie ocenianym studiów podyplomowych (0,5 pkt) <br> lub kursu doskonal¹cego umiejêtnoœci dydaktyczne, zawodowe lub jêzykowe (po 0,2 pkt)"
+	        },
+	        {
+	        "name":"za osi¹gniêcia dotycz¹ce zajêæ w jêzykach obcych, inne ni¿ bezpoœrednie prowadzenie zajêæ",
+	        "gainedPoints":"0.0",
+	        "points":"?",
+	        "maxPoints":"?",
+	        "description": "liczba punktów mo¿e byæ zwiêkszona o 25%"
+	        },
+	        {
+	        "name":"opieka nad praktykami lub grup¹ praktykantów",
+	        "gainedPoints":"0.0",
+	        "points":"0,1",
+	        "maxPoints":"?",
+	        "description": "?"
+	        },
+	        {
+	        "name":"opieka nad rokiem studiów, specjalnoœci¹ lub grup¹ studentów",
+	        "gainedPoints":"0.0",
+	        "points":"0,1",
+	        "maxPoints":"?",
+	        "description": "?"
+	        },
+	        {
+	        "name":"nagroda studentów dla wyk³adowcy",
+	        "gainedPoints":"0.0",
+	        "points":"0,5",
+	        "maxPoints":"?",
+	        "description": "?"
+	        },
+	        {
+	        "name":"nagroda Rektora P£ za osi¹gniêcia dydaktyczne",
+	        "gainedPoints":"0.0",
+	        "points":"0,5",
+	        "maxPoints":"?",
+	        "description": "?"
+	        },
+	        {
+	        "name":"inne osi¹gniêcia (niewymienione w ankiecie)",
+	        "gainedPoints":"0.0",
+	        "points":"0,3",
+	        "maxPoints":"0,3",
+	        "description": "?"
+	        }
+	    ]
+	 },
+	 {
+		"shortName":"NB1",
+        "name":"Uzyskanie tytu³u lub stopnia naukowego",
+        "points":"0",
+        "description":"Uzyskanie w okresie ocenianym tytu³u lub stopnia naukowego",
+		"achievementsList": [
+			{
+	        "name":"tytu³ naukowy",
+	        "gainedPoints":"0.0",
+	        "points":"30",
+	        "maxPoints":"?",
+	        "description": "?"
+	        }, 
+	        {
+	        "name":"stopieñ naukowy doktora habilitowanego",
+	        "gainedPoints":"0.0",
+	        "points":"20",
+	        "maxPoints":"?",
+	        "description": "?"
+	        }, 
+	        {
+	        "name":"stopieñ naukowy doktora",
+	        "gainedPoints":"0.0",
+	        "points":"10",
+	        "maxPoints":"?",
+	        "description": "?"
+	        }
+	    	]
+	 	},
+	 	{
+		"shortName":"NB2",
+        "name":"Realizowane projekty badawcze i projekty celowe oraz umowy z innymi podmiotami",
+        "points":"0",
+        "description":"punkty nale¿y przyznawaæ tylko raz w ca³ym okresie trwania projektu; <br> podana iloœæ punktów dzielona jest pomiêdzy wszystkich cz³onków zaspo³u przy czym indywidualny udzia³ nie mo¿e przekroczyæ 50% iloœci przewidzianych punktów",
+		"achievementsList": [
+			{
+	        "name":"projekt promotorski",
+	        "gainedPoints":"0.0",
+	        "points":"20",
+	        "maxPoints":"?",
+	        "description": ""
+	        },	
+	        {
+	        "name":"projekt badawczy w³asny",
+	        "gainedPoints":"0.0",
+	        "points":"30",
+	        "maxPoints":"?",
+	        "description": ""
+	        },	
+	        {
+	        "name":"projekt zamawiany i rozwojowy",
+	        "gainedPoints":"0.0",
+	        "points":"30",
+	        "maxPoints":"?",
+	        "description": ""
+	        },
+	        {
+	        "name":"projekt celowy o udziale wnioskodawcy powy¿ej 500 tys. z³",
+	        "gainedPoints":"0.0",
+	        "points":"30",
+	        "maxPoints":"?",
+	        "description": ""
+	        },
+	        {
+	        "name":"projekt celowy o udziale wnioskodawcy od 200 tys. z³ do 500 tys. z³",
+	        "gainedPoints":"0.0",
+	        "points":"20",
+	        "maxPoints":"?",
+	        "description": ""
+	        },
+	        {
+	        "name":"projekt celowy o udziale wnioskodawcy poniej 200 tys. z³",
+	        "gainedPoints":"0.0",
+	        "points":"10",
+	        "maxPoints":"?",
+	        "description": ""
+	        },
+	        {
+	        "name":"kontrakt miêdzynarodowy finansowany ze œrodków zagranicznych",
+	        "gainedPoints":"0.0",
+	        "points":"20",
+	        "maxPoints":"?",
+	        "description": ""
+	        },
+	        {
+	        "name":"koordynator projektu miêdzynarodowego",
+	        "gainedPoints":"0.0",
+	        "points":"150",
+	        "maxPoints":"?",
+	        "description": ""
+	        },
+	        {
+	        "name":"koordynator projektu zamawianego",
+	        "gainedPoints":"0.0",
+	        "points":"60",
+	        "maxPoints":"?",
+	        "description": ""
+	        },
+	        {
+	        "name":"z³o¿enie projektu badawczego",
+	        "gainedPoints":"0.0",
+	        "points":"60",
+	        "maxPoints":"?",
+	        "description": "30% punktów przewidzianych dla kierownika i wykonawcy odpowiedniego projektu realizowanego (punkty otrzymuje tylko 1 osoba z zespo³u)"
+	        }
+	    	]
+	 	},
+	 	{
+		"shortName":"NB3",
+        "name":"Uzyskanie nagród i wyró¿nieñ miêdzynarodowych i krajowych",
+        "points":"0",
+        "description":"liczba punktów dzielona przez liczbê cz³onków zespo³u",
+        "achievementsList": [
+			{
+        "name":"nagroda lub wyró¿nienie miêdzynarodowe",
+	        "gainedPoints":"0.0",
+        "points":"40",
+        "maxPoints":"?",
+        "description": ""
+        },
+        {
+        "name":"nagroda krajowa za dzia³alnoœæ naukow¹ lub artystyczn¹ Prezesa Rady Ministrów, Ministra Nauki i Szkolnictwa Wy¿szego, Fundacji na Rzecz Nauki Polskiej, Prezesa Polskiej Akademii Nauk im. Marii Skodowskiej-Curie, Ministra Kultury i Sztuki i in.",
+	    "gainedPoints":"0.0",
+        "points":"20",
+        "maxPoints":"?",
+        "description": ""
+        },
+        {
+        "name":"nagroda lub wyró¿nienie za zastosowanie praktyczne wyników prac B+R lub prac twórczych (artystycznych) Prezydenta RP, Prezesa Rady Ministrów, Ministra Nauki i Szkolnictwa Wyszego, Ministra Kultury i Sztuki i innych ministrów, Prezydenta m. £odzi , krajowych izb gospodarczych, medali i wyró¿nieñ na targach krajowych i zagranicznych i in.",
+	    "gainedPoints":"0.0",
+        "points":"25",
+        "maxPoints":"?",
+        "description": ""
+        },
+        {
+        "name":"nagroda Rektora P£",
+	        "gainedPoints":"0.0",
+        "points":"5",
+        "maxPoints":"?",
+        "description": ""
+        }
+	    	]
+	 	},
+	 	
+	 	{
+		"shortName":"NB4",
+        "name":"Publikacje naukowe recenzowane i referaty na konferencjach",
+        "points":"0",
+        "description":"wymagana afiliacja P£",
+        "achievementsList": [
+			 {
+        "name":"publikacja w czasopiœmie, wg aktualnego wykazu og³oszonego przez ministra w³aœciwego ds. nauki",
+	        "gainedPoints":"0.0",
+        "points":"?",
+        "maxPoints":"?",
+        "description": "liczba punktów dzielona przez liczbê autorów publikacji (punkty przyznawaæ mog¹ sobie tylko pracownicy naukowo-dydaktyczni P£)"
+        },
+        {
+        "name":"referat plenarny lub zaproszony wyg³oszony na konferencji miêdzynarodowej",
+	        "gainedPoints":"0.0",
+        "points":"1,5",
+        "maxPoints":"?",
+        "description": "konferencja miêdzynarodowa to taka, w której co najmniej 10% uczestników jest spoza Polski"
+        },
+        {
+        "name":"referat plenarny lub zaproszony wyg³oszony na konferencji krajowej",
+	        "gainedPoints":"0.0",
+        "points":"1",
+        "maxPoints":"?",
+        "description": ""
+        },
+        {
+        "name":"pozosta³e referaty wyg³oszone na konferencjach miêdzynarodowych",
+	        "gainedPoints":"0.0",
+        "points":"0,5",
+        "maxPoints":"?",
+        "description": "za referaty na konferencjach suma pkt.  w okresie 4 lat mo¿e wynieœæ max. 3"
+        }
+	    	]
+	 	},
+	 	
+	 	{
+		"shortName":"NB4a",
+        "name":"Twórczy dorobek w zakresie dzia³alnoœci o indywidualnym charakterze",
+        "points":"0",
+        "description":"Twórczy dorobek w zakresie dzia³alnoœci o indywidualnym charakterze wnosz¹cy znaczny wk³ad w rozwój dziedzin sztuki oraz wchodz¹cy w ich sk³ad dyscyplin artystycznych",
+        "achievementsList": [
+			 {
+        "name":"wystawa indywidualna w zagranicznej presti¿owej galerii/muzeum",
+	        "gainedPoints":"0.0",
+        "points":"24",
+        "maxPoints":"?",
+        "description": "?"
+        },
+        {
+        "name":"wystawa indywidualna w krajowej presti¿owej galerii/muzeum",
+	        "gainedPoints":"0.0",
+        "points":"15",
+        "maxPoints":"?",
+        "description": "?"
+        },
+        {
+        "name":"udzia³ w wystawie miêdzynarodowej",
+	        "gainedPoints":"0.0",
+        "points":"20",
+        "maxPoints":"?",
+        "description": "?"
+        },
+        {
+        "name":"udzia³ w wystawie sztuki polskiej za granic¹",
+	        "gainedPoints":"0.0",
+        "points":"15",
+        "maxPoints":"?",
+        "description": "?"
+        },
+        {
+        "name":"udzia³ w wystawie krajowej o zasiêgu ogólnopolskim",
+	        "gainedPoints":"0.0",
+        "points":"10",
+        "maxPoints":"?",
+        "description": "?"
+        },
+        {
+        "name":"udzia³ w wystawie zbiorowej o zasiêgu œrodowiska lokalnego",
+	        "gainedPoints":"0.0",
+        "points":"4",
+        "maxPoints":"?",
+        "description": "?"
+        }
+	    	]
+	 	},
+	 	
+	 	{
+		"shortName":"NB5",
+        "name":"Monografie naukowe, podrêczniki akademickie",
+        "points":"0",
+        "description":"wymagana afiliacja P£; ³¹czna liczba punktów za poszczególne rozdzia³y nie mo¿e przekraczaæ liczby punktów za ca³¹ monografiê",
+        "achievementsList": [
+			{
+        "name":"autorstwo monografii lub podrêcznika akademickiego w jêzyku angielskim",
+	        "gainedPoints":"0.0",
+        "points":"24",
+        "maxPoints":"?",
+        "description": ""
+        },
+        {
+        "name":"autorstwo rozdzia³u w monografii lub podrêczniku akademickim w jêzyku angielskim",
+	        "gainedPoints":"0.0",
+        "points":"7",
+        "maxPoints":"24",
+        "description": ""
+        },
+        {
+        "name":"autorstwo monografii lub podrêcznika akademickiego w jêzyku polskim lub innym nieangielskim",
+	        "gainedPoints":"0.0",
+        "points":"12",
+        "maxPoints":"?",
+        "description": ""
+        },
+        {
+        "name":"autorstwo rozdzia³u w monografii lub podrêczniku akademickim w jêzyku polskim lub innym nieangielskim",
+	        "gainedPoints":"0.0",
+        "points":"3",
+        "maxPoints":"12",
+        "description": ""
+        },
+        {
+        "name":"redakcja monografii lub podrêcznika akademickiego",
+	        "gainedPoints":"0.0",
+        "points":"5",
+        "maxPoints":"?",
+        "description": ""
+        },
+        {
+        "name":"liczba cytowañ publikacji afiliowanych wg. Bazy Scopus lub innych udokumentowanych Ÿróde³ (bez autocytowañ)",
+	        "gainedPoints":"0.0",
+        "points":"0,5",
+        "maxPoints":"?",
+        "description": "0,5 za ka¿de cytowanie"
+        }
+	    	]
+	 	},
+	 	
+	 	{
+		 "shortName":"NB6",
+        "name":"Opatentowane wynalazki, prawa ochronne na wzory u¿ytkowe (tak¿e wspó³autorstwo)",
+        "points":"0",
+        "description":"podana iloœæ punktów dzielona jest pomiêdzy wszystkich cz³onków zaspo³u przy czym indywidualny udzia³ nie mo¿e przekroczyæ 50% iloœci przewidzianych punktów",
+        "achievementsList": [
+			{
+        "name":"uzyskany patent krajowy",
+	    "gainedPoints":"0.0",
+        "points":"25",
+        "maxPoints":"12,5",
+        "description": ""
+        },
+        {
+        "name":"uzyskany patent miêdzynarodowy",
+	        "gainedPoints":"0.0",
+        "points":"35",
+        "maxPoints":"17,5",
+        "description": ""
+        },
+        {
+        "name":"uzyskane prawo ochronne na wzór u¿ytkowy",
+	        "gainedPoints":"0.0",
+        "points":"10",
+        "maxPoints":"5",
+        "description": ""
+        },
+        {
+        "name":"zg³oszenia patentowe zagraniczne",
+	        "gainedPoints":"0.0",
+        "points":"15",
+        "maxPoints":"7,5",
+        "description": ""
+        },
+        {
+        "name":"zg³oszenia patentowe krajowe",
+	        "gainedPoints":"0.0",
+        "points":"10",
+        "maxPoints":"5",
+        "description": ""
+        },
+        {
+        "name":"przys³uguj¹ce prawa autorskie do utworu bêd¹cego wynikiem dzia³alnoœci twórczej o indywidualnym charakterze",
+	        "gainedPoints":"0.0",
+        "points":"10",
+        "maxPoints":"5",
+        "description": "(w szczególnoœci z zakresu architektury, urbanistyki, wzornictwa przemys³owego oraz sztuki)"
+        }
+	    	]
+	 	},
+	 	
+	 	{
+		"shortName":"NB7",
+        "name":"Wdro¿enia",
+        "points":"0",
+        "description":"kierownik otrzymuje max. 50% punktów, pozosta³a iloœæ punktów jest  dzielona wœród wykonawców",
+        "achievementsList": [
+			{
+        "name":"œrednioroczne przychody z tytu³u wdro¿enia",
+	        "gainedPoints":"0.0",
+        "points":"?",
+        "maxPoints":"?",
+        "description": "1 punkt za ka¿de 10 tys. z³"
+        },
+        {
+        "name":"umowy licencyjne",
+	        "gainedPoints":"0.0",
+        "points":"?",
+        "maxPoints":"?",
+        "description": "1 punkt za ka¿de uzyskane 10 tys. z³ op³aty licencyjnej"
+        }
+	    	]
+	 	},
+	 	
+	 	{
+		"shortName":"NB8",
+        "name":"Uzyskane œrodki finansowe dla P£",
+        "points":"0",
+        "description":"Uzyskane œrodki finansowe dla P£, pozyskane ze wszelkich Ÿróde³ poza dotacjami celowymi, grantami badawczymi, wdro¿eniami, licencjami, udokumentowane fakturami lub innymi dokumentami; przy projektach zespo³owych punkty nale¿y podzieliæ pomiêdzy cz³onków zespo³u",
+        "achievementsList": [
+			{
+        "name":"Œrednioroczne przychody powy¿ej 500 tys. z³",
+	        "gainedPoints":"0.0",
+        "points":"150",
+        "maxPoints":"?",
+        "description": ""
+        },
+        {
+        "name":"Œrednioroczne przychody od 200 tys. z³ do 500 tys. z³",
+	        "gainedPoints":"0.0",
+        "points":"100",
+        "maxPoints":"?",
+        "description": ""
+        },
+        {
+        "name":"Œrednioroczne przychody od 50 tys. z³ do 200 tys. z³",
+	        "gainedPoints":"0.0",
+        "points":"50",
+        "maxPoints":"?",
+        "description": ""
+        },
+        {
+        "name":"Œrednioroczne przychody poni¿ej 50 tys. z³",
+	        "gainedPoints":"0.0",
+        "points":"20",
+        "maxPoints":"?",
+        "description": ""
+        }
+	    	]
+	 	},
+	 	
+	 	{
+		"shortName":"NB9",
+        "name":"Kszta³cenie kadry naukowej",
+        "points":"0",
+        "description":"Kszta³cenie kadry naukowej",
+       "achievementsList": [
+			 {
+        "name":"promotorstwo doktoratu ukoñczonego",
+	        "gainedPoints":"0.0",
+        "points":"5",
+        "maxPoints":"?",
+        "description": "?"
+        }
+	    	]
+	 	},
+	 	
+	 	{
+		"shortName":"ORG",
+        "name":"Uczestnictwo w pracach organizacyjnych Uczelni",
+        "points":"0",
+        "description":"je¿eli w okresie ocenianym dana aktywnoœæ trwa³a nieprzerwanie d³u¿ej ni¿ rok, punkty mo¿na przyznaæ sobie jedynie raz",
+        "achievementsList": [
+	        {
+        "name":"pe³nienie funkcji kierowniczych w Uczelni (rektor, prorektor)",
+	        "gainedPoints":"0.0",
+        "points":"7",
+        "maxPoints":"?",
+        "description": ""
+        },
+        {
+        "name":"pe³nienie funkcji kierowniczych  na wydziale (dziekan, prodziekan, dyrektor I-4)",
+	        "gainedPoints":"0.0",
+        "points":"6,5",
+        "maxPoints":"?",
+        "description": ""
+        },
+        {
+        "name":"pe³nienie funkcji kierowniczych w katedrach i instytutach, oraz Studium Jêzyków Obcych, Studium Wychowania Fizycznego i Sportu i Centrum Nauczania Matematyki i Fizyki, IFE (kierownik, zastêpca kierownika)",
+	        "gainedPoints":"0.0",
+        "points":"3",
+        "maxPoints":"?",
+        "description": ""
+        },
+        {
+        "name":"cz³onkostwo w Senacie Uczelni",
+	        "gainedPoints":"0.0",
+        "points":"0,5",
+        "maxPoints":"?",
+        "description": ""
+        },
+        {
+        "name":"cz³onkostwo w gremiach oceniaj¹cych projekty badawcze i inne",
+	        "gainedPoints":"0.0",
+        "points":"0,4",
+        "maxPoints":"1,0",
+        "description": "(0,4 punktu za ka¿de gremium)"
+        },
+        {
+        "name":"udzia³ w zespo³ach organizacyjnych projektów strukturalnych",
+	        "gainedPoints":"0.0",
+        "points":"?",
+        "maxPoints":"3,0",
+        "description": "(liczba punktów dzielona przez liczbê cz³onków zespo³u)"
+        },
+        {
+        "name":"cz³onkostwo w Centralnej Komisji do spraw Tytu³u Naukowego i Stopni Naukowych ",
+	        "gainedPoints":"0.0",
+        "points":"2",
+        "maxPoints":"?",
+        "description": ""
+        },
+        {
+        "name":"cz³onkostwo w Radzie G³ównej Sz.W.",
+	        "gainedPoints":"0.0",
+        "points":"2",
+        "maxPoints":"?",
+        "description": ""
+        },
+        {
+        "name":"cz³onkostwo (praca ekspercka) w Komisji Akredytacyjnej",
+	        "gainedPoints":"0.0",
+        "points":"2",
+        "maxPoints":"?",
+        "description": ""
+        },
+        {
+        "name":"cz³onkostwo w komitetach i radach naukowych, sekcjach PAN lub PAU",
+	        "gainedPoints":"0.0",
+        "points":"2",
+        "maxPoints":"?",
+        "description": ""
+        },
+        {
+        "name":"przewodniczenie komitetami naukowymi lub praca w komitetach organizacyjnych imprez naukowych, jubileuszowych i okolicznoœciowych",
+	        "gainedPoints":"0.0",
+        "points":"1,5",
+        "maxPoints":"?",
+        "description": ""
+        },
+        {
+        "name":"praca w sta³ych komisjach wydzia³owych i uczelnianych",
+	        "gainedPoints":"0.0",
+        "points":"1,5",
+        "maxPoints":"1",
+        "description": "(0,5 pkt za ka¿d¹ komisjê)"
+        },
+        {
+        "name":"cz³onkostwo we w³adzach Stowarzyszenia Wychowanków P£, pe³nienie funkcji w uczelnianych zwi¹zkach zawodowych, reprezentatywnych w rozumieniu ustawy o zwi¹zkach zawodowych",
+	        "gainedPoints":"0.0",
+        "points":"0,5",
+        "maxPoints":"?",
+        "description": ""
+        },
+        {
+        "name":"redaktor w wydawnictwach naukowych (zagranicznych, krajowych)",
+	        "gainedPoints":"0.0",
+        "points":"0,4",
+        "maxPoints":"1",
+        "description": "(0,4 punktu za ka¿de wydawnictwo)"
+        },
+        {
+        "name":"kierowanie wydawaniem czasopism naukowych, udzia³ w redakcjach czasopism i serii wydawniczych",
+	        "gainedPoints":"0.0",
+        "points":"0,6",
+        "maxPoints":"1,5",
+        "description": "(0,6 punktu za ka¿de wydawnictwo)"
+        },
+        {
+        "name":"cz³onkostwo we w³adzach krajowych stowarzyszeñ naukowych",
+	        "gainedPoints":"0.0",
+        "points":"0,2",
+        "maxPoints":"0,5",
+        "description": "(0,2 punktu za ka¿de stowarzyszenie)"
+        },
+        {
+        "name":"cz³onkostwo we w³adzach miêdzynarodowych stowarzyszeñ naukowych",
+	        "gainedPoints":"0.0",
+        "points":"1",
+        "maxPoints":"2",
+        "description": "(1 punkt za ka¿de stowarzyszenie)"
+        },
+        {
+        "name":"opieka nad studenckim ruchem naukowym",
+	        "gainedPoints":"0.0",
+        "points":"1",
+        "maxPoints":"?",
+        "description": ""
+        },
+        {
+        "name":"prace powierzone przez rektora lub dziekana na okres kadencji (np. funkcje pe³nomocników)",
+	        "gainedPoints":"0.0",
+        "points":"1,5",
+        "maxPoints":"?",
+        "description": ""
+        },
+        {
+        "name":"prace (zadania) powierzone przez rektora, dziekana lub kierownika jednostki organizacyjnej",
+	        "gainedPoints":"0.0",
+        "points":"1",
+        "maxPoints":"?",
+        "description": ""
+        },
+        {
+        "name":"opieka nad studenckim ruchem stowarzyszeniowym (samorz¹dem, organizacjami kulturalnymi, sportowymi i turystycznymi)",
+	        "gainedPoints":"0.0",
+        "points":"0,5",
+        "maxPoints":"?",
+        "description": ""
+        },
+        {
+        "name":"inna dzia³alnoœæ niewymieniona w ankiecie",
+	        "gainedPoints":"0.0",
+        "points":"0,2",
+        "maxPoints":"?",
+        "description": "0,2 punktu za ka¿d¹ wymienion¹ dzia³alnoœæ, ³¹cznie nie wiêcej ni¿ 1,5 pkt w okresie 4 lat;"
+        }
+	    	]
+	 	}
+	 	
+	 ]

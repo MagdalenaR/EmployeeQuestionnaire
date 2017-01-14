@@ -113,9 +113,7 @@
         "maxPoints":"0,3",
         "description": "?"
         },
-        
-        
-        
+                
        {
         "name":"tytu³ naukowy",
         "points":"30",
@@ -135,61 +133,61 @@
         "description": "?"
         }, 
         
-        
+
         
         {
         "name":"projekt promotorski",
         "points":"20",
         "maxPoints":"?",
-        "description": "punkty nale¿y przyznawaæ tylko raz w ca³ym okresie trwania projektu; podana iloœæ punktów dzielona jest pomiêdzy wszystkich cz³onków zaspo³u przy czym indywidualny udzia³ nie mo¿e przekroczyæ 50% iloœci przewidzianych punktów"
+        "description": ""
         },	
         {
         "name":"projekt badawczy w³asny",
         "points":"30",
         "maxPoints":"?",
-        "description": "punkty nale¿y przyznawaæ tylko raz w ca³ym okresie trwania projektu; podana iloœæ punktów dzielona jest pomiêdzy wszystkich cz³onków zaspo³u przy czym indywidualny udzia³ nie mo¿e przekroczyæ 50% iloœci przewidzianych punktów"
+        "description": ""
         },	
         {
         "name":"projekt zamawiany i rozwojowy",
         "points":"30",
         "maxPoints":"?",
-        "description": "punkty nale¿y przyznawaæ tylko raz w ca³ym okresie trwania projektu; podana iloœæ punktów dzielona jest pomiêdzy wszystkich cz³onków zaspo³u przy czym indywidualny udzia³ nie mo¿e przekroczyæ 50% iloœci przewidzianych punktów"
+        "description": ""
         },
         {
         "name":"projekt celowy o udziale wnioskodawcy powy¿ej 500 tys. z³",
         "points":"30",
         "maxPoints":"?",
-        "description": "punkty nale¿y przyznawaæ tylko raz w ca³ym okresie trwania projektu; podana iloœæ punktów dzielona jest pomiêdzy wszystkich cz³onków zaspo³u przy czym indywidualny udzia³ nie mo¿e przekroczyæ 50% iloœci przewidzianych punktów"
+        "description": ""
         },
         {
         "name":"projekt celowy o udziale wnioskodawcy od 200 tys. z³ do 500 tys. z³",
         "points":"20",
         "maxPoints":"?",
-        "description": "punkty nale¿y przyznawaæ tylko raz w ca³ym okresie trwania projektu; podana iloœæ punktów dzielona jest pomiêdzy wszystkich cz³onków zaspo³u przy czym indywidualny udzia³ nie mo¿e przekroczyæ 50% iloœci przewidzianych punktów"
+        "description": ""
         },
         {
         "name":"projekt celowy o udziale wnioskodawcy poniej 200 tys. z³",
         "points":"10",
         "maxPoints":"?",
-        "description": "punkty nale¿y przyznawaæ tylko raz w ca³ym okresie trwania projektu; podana iloœæ punktów dzielona jest pomiêdzy wszystkich cz³onków zaspo³u przy czym indywidualny udzia³ nie mo¿e przekroczyæ 50% iloœci przewidzianych punktów"
+        "description": ""
         },
         {
         "name":"kontrakt miêdzynarodowy finansowany ze œrodków zagranicznych",
         "points":"20",
         "maxPoints":"?",
-        "description": "punkty nale¿y przyznawaæ tylko raz w ca³ym okresie trwania projektu; podana iloœæ punktów dzielona jest pomiêdzy wszystkich cz³onków zaspo³u przy czym indywidualny udzia³ nie mo¿e przekroczyæ 50% iloœci przewidzianych punktów"
+        "description": ""
         },
         {
         "name":"koordynator projektu miêdzynarodowego",
         "points":"150",
         "maxPoints":"?",
-        "description": "punkty nale¿y przyznawaæ tylko raz w ca³ym okresie trwania projektu; podana iloœæ punktów dzielona jest pomiêdzy wszystkich cz³onków zaspo³u przy czym indywidualny udzia³ nie mo¿e przekroczyæ 50% iloœci przewidzianych punktów"
+        "description": ""
         },
         {
         "name":"koordynator projektu zamawianego",
         "points":"60",
         "maxPoints":"?",
-        "description": "punkty nale¿y przyznawaæ tylko raz w ca³ym okresie trwania projektu; podana iloœæ punktów dzielona jest pomiêdzy wszystkich cz³onków zaspo³u przy czym indywidualny udzia³ nie mo¿e przekroczyæ 50% iloœci przewidzianych punktów"
+        "description": ""
         },
         {
         "name":"z³o¿enie projektu badawczego",
@@ -199,30 +197,29 @@
         },
         
         
-        
         {
         "name":"nagroda lub wyró¿nienie miêdzynarodowe",
         "points":"40",
         "maxPoints":"?",
-        "description": "liczba punktów dzielona przez liczbê cz³onków zespo³u"
+        "description": ""
         },
         {
         "name":"nagroda krajowa za dzia³alnoœæ naukow¹ lub artystyczn¹ Prezesa Rady Ministrów, Ministra Nauki i Szkolnictwa Wy¿szego, Fundacji na Rzecz Nauki Polskiej, Prezesa Polskiej Akademii Nauk im. Marii Skodowskiej-Curie, Ministra Kultury i Sztuki i in.",
         "points":"20",
         "maxPoints":"?",
-        "description": "liczba punktów dzielona przez liczbê cz³onków zespo³u"
+        "description": ""
         },
         {
         "name":"nagroda lub wyró¿nienie za zastosowanie praktyczne wyników prac B+R lub prac twórczych (artystycznych) Prezydenta RP, Prezesa Rady Ministrów, Ministra Nauki i Szkolnictwa Wyszego, Ministra Kultury i Sztuki i innych ministrów, Prezydenta m. £odzi , krajowych izb gospodarczych, medali i wyró¿nieñ na targach krajowych i zagranicznych i in.",
         "points":"25",
         "maxPoints":"?",
-        "description": "liczba punktów dzielona przez liczbê cz³onków zespo³u"
+        "description": ""
         },
         {
         "name":"nagroda Rektora P£",
         "points":"5",
         "maxPoints":"?",
-        "description": "liczba punktów dzielona przez liczbê cz³onków zespo³u"
+        "description": ""
         },
         
         
@@ -231,25 +228,25 @@
         "name":"publikacja w czasopiœmie, wg aktualnego wykazu og³oszonego przez ministra w³aœciwego ds. nauki",
         "points":"?",
         "maxPoints":"?",
-        "description": "wymagana afiliacja P£; liczba punktów dzielona przez liczbê autorów publikacji (punkty przyznawaæ mog¹ sobie tylko pracownicy naukowo-dydaktyczni P£)"
+        "description": "liczba punktów dzielona przez liczbê autorów publikacji (punkty przyznawaæ mog¹ sobie tylko pracownicy naukowo-dydaktyczni P£)"
         },
         {
         "name":"referat plenarny lub zaproszony wyg³oszony na konferencji miêdzynarodowej",
         "points":"1,5",
         "maxPoints":"?",
-        "description": "wymagana afiliacja P£; konferencja miêdzynarodowa to taka, w której co najmniej 10% uczestników jest spoza Polski"
+        "description": "konferencja miêdzynarodowa to taka, w której co najmniej 10% uczestników jest spoza Polski"
         },
         {
         "name":"referat plenarny lub zaproszony wyg³oszony na konferencji krajowej",
         "points":"1",
         "maxPoints":"?",
-        "description": "wymagana afiliacja P£"
+        "description": ""
         },
         {
         "name":"pozosta³e referaty wyg³oszone na konferencjach miêdzynarodowych",
         "points":"0,5",
         "maxPoints":"?",
-        "description": "(za referaty na konferencjach suma pkt.  w okresie 4 lat mo¿e wynieœæ max. 3 )"
+        "description": "za referaty na konferencjach suma pkt.  w okresie 4 lat mo¿e wynieœæ max. 3"
         },
         
         
@@ -297,37 +294,37 @@
         "name":"autorstwo monografii lub podrêcznika akademickiego w jêzyku angielskim",
         "points":"24",
         "maxPoints":"?",
-        "description": "wymagana afiliacja P£; ³¹czna liczba punktów za poszczególne rozdzia³y nie mo¿e przekraczaæ liczby punktów za ca³¹ monografiê"
+        "description": ""
         },
         {
         "name":"autorstwo rozdzia³u w monografii lub podrêczniku akademickim w jêzyku angielskim",
         "points":"7",
         "maxPoints":"?",
-        "description": "wymagana afiliacja P£; ³¹czna liczba punktów za poszczególne rozdzia³y nie mo¿e przekraczaæ liczby punktów za ca³¹ monografiê"
+        "description": ""
         },
         {
         "name":"autorstwo monografii lub podrêcznika akademickiego w jêzyku polskim lub innym nieangielskim",
         "points":"12",
         "maxPoints":"?",
-        "description": "wymagana afiliacja P£; ³¹czna liczba punktów za poszczególne rozdzia³y nie mo¿e przekraczaæ liczby punktów za ca³¹ monografiê"
+        "description": ""
         },
         {
         "name":"autorstwo rozdzia³u w monografii lub podrêczniku akademickim w jêzyku polskim lub innym nieangielskim",
         "points":"3",
         "maxPoints":"?",
-        "description": "wymagana afiliacja P£; ³¹czna liczba punktów za poszczególne rozdzia³y nie mo¿e przekraczaæ liczby punktów za ca³¹ monografiê"
+        "description": ""
         },
         {
         "name":"redakcja monografii lub podrêcznika akademickiego",
         "points":"5",
         "maxPoints":"?",
-        "description": "wymagana afiliacja P£; ³¹czna liczba punktów za poszczególne rozdzia³y nie mo¿e przekraczaæ liczby punktów za ca³¹ monografiê"
+        "description": ""
         },
         {
         "name":"liczba cytowañ publikacji afiliowanych wg. Bazy Scopus lub innych udokumentowanych Ÿróde³ (bez autocytowañ)",
         "points":"0,5",
         "maxPoints":"?",
-        "description": "0,5 za ka¿de cytowanie; wymagana afiliacja P£; ³¹czna liczba punktów za poszczególne rozdzia³y nie mo¿e przekraczaæ liczby punktów za ca³¹ monografiê"
+        "description": "0,5 za ka¿de cytowanie"
         },
         
         
@@ -336,37 +333,37 @@
         "name":"uzyskany patent krajowy",
         "points":"25",
         "maxPoints":"?",
-        "description": "podana iloœæ punktów dzielona jest pomiêdzy wszystkich cz³onków zaspo³u przy czym indywidualny udzia³ nie mo¿e przekroczyæ 50% iloœci przewidzianych punktów"
+        "description": ""
         },
         {
         "name":"uzyskany patent miêdzynarodowy",
         "points":"35",
         "maxPoints":"?",
-        "description": "podana iloœæ punktów dzielona jest pomiêdzy wszystkich cz³onków zaspo³u przy czym indywidualny udzia³ nie mo¿e przekroczyæ 50% iloœci przewidzianych punktów"
+        "description": ""
         },
         {
         "name":"uzyskane prawo ochronne na wzór u¿ytkowy",
         "points":"10",
         "maxPoints":"?",
-        "description": "podana iloœæ punktów dzielona jest pomiêdzy wszystkich cz³onków zaspo³u przy czym indywidualny udzia³ nie mo¿e przekroczyæ 50% iloœci przewidzianych punktów"
+        "description": ""
         },
         {
         "name":"zg³oszenia patentowe zagraniczne",
         "points":"15",
         "maxPoints":"?",
-        "description": "podana iloœæ punktów dzielona jest pomiêdzy wszystkich cz³onków zaspo³u przy czym indywidualny udzia³ nie mo¿e przekroczyæ 50% iloœci przewidzianych punktów"
+        "description": ""
         },
         {
         "name":"zg³oszenia patentowe krajowe",
         "points":"10",
         "maxPoints":"?",
-        "description": "podana iloœæ punktów dzielona jest pomiêdzy wszystkich cz³onków zaspo³u przy czym indywidualny udzia³ nie mo¿e przekroczyæ 50% iloœci przewidzianych punktów"
+        "description": ""
         },
         {
         "name":"przys³uguj¹ce prawa autorskie do utworu bêd¹cego wynikiem dzia³alnoœci twórczej o indywidualnym charakterze",
         "points":"10",
         "maxPoints":"?",
-        "description": "(w szczególnoœci z zakresu architektury, urbanistyki, wzornictwa przemys³owego oraz sztuki); podana iloœæ punktów dzielona jest pomiêdzy wszystkich cz³onków zaspo³u przy czym indywidualny udzia³ nie mo¿e przekroczyæ 50% iloœci przewidzianych punktów"
+        "description": "(w szczególnoœci z zakresu architektury, urbanistyki, wzornictwa przemys³owego oraz sztuki)"
         },
         
         
@@ -375,13 +372,13 @@
         "name":"œrednioroczne przychody z tytu³u wdro¿enia",
         "points":"?",
         "maxPoints":"?",
-        "description": "1 punkt za ka¿de 10 tys. z³; kierownik otrzymuje max. 50% punktów, pozosta³a iloœæ punktów jest  dzielona wœród wykonawców"
+        "description": "1 punkt za ka¿de 10 tys. z³"
         },
         {
         "name":"umowy licencyjne",
         "points":"?",
         "maxPoints":"?",
-        "description": "1 punkt za ka¿de uzyskane 10 tys. z³ op³aty licencyjnej; kierownik otrzymuje max. 50% punktów, pozosta³a iloœæ punktów jest  dzielona wœród wykonawców"
+        "description": "1 punkt za ka¿de uzyskane 10 tys. z³ op³aty licencyjnej"
         },
         
         
@@ -390,25 +387,25 @@
         "name":"Œrednioroczne przychody powy¿ej 500 tys. z³",
         "points":"150",
         "maxPoints":"?",
-        "description": "przy projektach zespo³owych punkty nale¿y podzieliæ pomiêdzy cz³onków zespo³u"
+        "description": ""
         },
         {
         "name":"Œrednioroczne przychody od 200 tys. z³ do 500 tys. z³",
         "points":"100",
         "maxPoints":"?",
-        "description": "przy projektach zespo³owych punkty nale¿y podzieliæ pomiêdzy cz³onków zespo³u"
+        "description": ""
         },
         {
         "name":"Œrednioroczne przychody od 50 tys. z³ do 200 tys. z³",
         "points":"50",
         "maxPoints":"?",
-        "description": "przy projektach zespo³owych punkty nale¿y podzieliæ pomiêdzy cz³onków zespo³u"
+        "description": ""
         },
         {
         "name":"Œrednioroczne przychody poni¿ej 50 tys. z³",
         "points":"20",
         "maxPoints":"?",
-        "description": "przy projektach zespo³owych punkty nale¿y podzieliæ pomiêdzy cz³onków zespo³u"
+        "description": ""
         },
         
         
@@ -426,136 +423,135 @@
         "name":"pe³nienie funkcji kierowniczych w Uczelni (rektor, prorektor)",
         "points":"7",
         "maxPoints":"?",
-        "description": "je¿eli w okresie ocenianym dana aktywnoœæ trwa³a nieprzerwanie d³u¿ej ni¿ rok, punkty mo¿na przyznaæ sobie jedynie raz"
+        "description": ""
         },
         {
         "name":"pe³nienie funkcji kierowniczych  na wydziale (dziekan, prodziekan, dyrektor I-4)",
         "points":"6,5",
         "maxPoints":"?",
-        "description": "je¿eli w okresie ocenianym dana aktywnoœæ trwa³a nieprzerwanie d³u¿ej ni¿ rok, punkty mo¿na przyznaæ sobie jedynie raz"
+        "description": ""
         },
         {
         "name":"pe³nienie funkcji kierowniczych w katedrach i instytutach, oraz Studium Jêzyków Obcych, Studium Wychowania Fizycznego i Sportu i Centrum Nauczania Matematyki i Fizyki, IFE (kierownik, zastêpca kierownika)",
         "points":"3",
         "maxPoints":"?",
-        "description": "je¿eli w okresie ocenianym dana aktywnoœæ trwa³a nieprzerwanie d³u¿ej ni¿ rok, punkty mo¿na przyznaæ sobie jedynie raz"
+        "description": ""
         },
         {
         "name":"cz³onkostwo w Senacie Uczelni",
         "points":"0,5",
         "maxPoints":"?",
-        "description": "je¿eli w okresie ocenianym dana aktywnoœæ trwa³a nieprzerwanie d³u¿ej ni¿ rok, punkty mo¿na przyznaæ sobie jedynie raz"
+        "description": ""
         },
         {
         "name":"cz³onkostwo w gremiach oceniaj¹cych projekty badawcze i inne",
         "points":"0,4",
         "maxPoints":"1,0",
-        "description": "(0,4 punktu za ka¿de gremium); je¿eli w okresie ocenianym dana aktywnoœæ trwa³a nieprzerwanie d³u¿ej ni¿ rok, punkty mo¿na przyznaæ sobie jedynie raz"
+        "description": "(0,4 punktu za ka¿de gremium)"
         },
         {
         "name":"udzia³ w zespo³ach organizacyjnych projektów strukturalnych",
         "points":"?",
         "maxPoints":"3,0",
-        "description": "(liczba punktów dzielona przez liczbê cz³onków zespo³u); je¿eli w okresie ocenianym dana aktywnoœæ trwa³a nieprzerwanie d³u¿ej ni¿ rok, punkty mo¿na przyznaæ sobie jedynie raz"
+        "description": "(liczba punktów dzielona przez liczbê cz³onków zespo³u)"
         },
         {
         "name":"cz³onkostwo w Centralnej Komisji do spraw Tytu³u Naukowego i Stopni Naukowych ",
         "points":"2",
         "maxPoints":"?",
-        "description": "je¿eli w okresie ocenianym dana aktywnoœæ trwa³a nieprzerwanie d³u¿ej ni¿ rok, punkty mo¿na przyznaæ sobie jedynie raz"
+        "description": ""
         },
         {
         "name":"cz³onkostwo w Radzie G³ównej Sz.W.",
         "points":"2",
         "maxPoints":"?",
-        "description": "je¿eli w okresie ocenianym dana aktywnoœæ trwa³a nieprzerwanie d³u¿ej ni¿ rok, punkty mo¿na przyznaæ sobie jedynie raz"
+        "description": ""
         },
         {
         "name":"cz³onkostwo (praca ekspercka) w Komisji Akredytacyjnej",
         "points":"2",
         "maxPoints":"?",
-        "description": "je¿eli w okresie ocenianym dana aktywnoœæ trwa³a nieprzerwanie d³u¿ej ni¿ rok, punkty mo¿na przyznaæ sobie jedynie raz"
+        "description": ""
         },
         {
         "name":"cz³onkostwo w komitetach i radach naukowych, sekcjach PAN lub PAU",
         "points":"2",
         "maxPoints":"?",
-        "description": "je¿eli w okresie ocenianym dana aktywnoœæ trwa³a nieprzerwanie d³u¿ej ni¿ rok, punkty mo¿na przyznaæ sobie jedynie raz"
+        "description": ""
         },
         {
         "name":"przewodniczenie komitetami naukowymi lub praca w komitetach organizacyjnych imprez naukowych, jubileuszowych i okolicznoœciowych",
         "points":"1,5",
         "maxPoints":"?",
-        "description": "je¿eli w okresie ocenianym dana aktywnoœæ trwa³a nieprzerwanie d³u¿ej ni¿ rok, punkty mo¿na przyznaæ sobie jedynie raz"
+        "description": ""
         },
         {
         "name":"praca w sta³ych komisjach wydzia³owych i uczelnianych",
         "points":"1,5",
         "maxPoints":"1",
-        "description": "(0,5 pkt za ka¿d¹ komisjê); je¿eli w okresie ocenianym dana aktywnoœæ trwa³a nieprzerwanie d³u¿ej ni¿ rok, punkty mo¿na przyznaæ sobie jedynie raz"
+        "description": "(0,5 pkt za ka¿d¹ komisjê)"
         },
         {
         "name":"cz³onkostwo we w³adzach Stowarzyszenia Wychowanków P£, pe³nienie funkcji w uczelnianych zwi¹zkach zawodowych, reprezentatywnych w rozumieniu ustawy o zwi¹zkach zawodowych",
         "points":"0,5",
         "maxPoints":"?",
-        "description": "je¿eli w okresie ocenianym dana aktywnoœæ trwa³a nieprzerwanie d³u¿ej ni¿ rok, punkty mo¿na przyznaæ sobie jedynie raz"
+        "description": ""
         },
         {
         "name":"redaktor w wydawnictwach naukowych (zagranicznych, krajowych)",
         "points":"0,4",
         "maxPoints":"1",
-        "description": "(0,4 punktu za ka¿de wydawnictwo); je¿eli w okresie ocenianym dana aktywnoœæ trwa³a nieprzerwanie d³u¿ej ni¿ rok, punkty mo¿na przyznaæ sobie jedynie raz"
+        "description": "(0,4 punktu za ka¿de wydawnictwo)"
         },
         {
         "name":"kierowanie wydawaniem czasopism naukowych, udzia³ w redakcjach czasopism i serii wydawniczych",
         "points":"0,6",
         "maxPoints":"1,5",
-        "description": "(0,6 punktu za ka¿de wydawnictwo); je¿eli w okresie ocenianym dana aktywnoœæ trwa³a nieprzerwanie d³u¿ej ni¿ rok, punkty mo¿na przyznaæ sobie jedynie raz"
+        "description": "(0,6 punktu za ka¿de wydawnictwo)"
         },
         {
         "name":"cz³onkostwo we w³adzach krajowych stowarzyszeñ naukowych",
         "points":"0,2",
         "maxPoints":"0,5",
-        "description": "(0,2 punktu za ka¿de stowarzyszenie); je¿eli w okresie ocenianym dana aktywnoœæ trwa³a nieprzerwanie d³u¿ej ni¿ rok, punkty mo¿na przyznaæ sobie jedynie raz"
+        "description": "(0,2 punktu za ka¿de stowarzyszenie)"
         },
         {
         "name":"cz³onkostwo we w³adzach miêdzynarodowych stowarzyszeñ naukowych",
         "points":"1",
         "maxPoints":"2",
-        "description": "(1 punkt za ka¿de stowarzyszenie); je¿eli w okresie ocenianym dana aktywnoœæ trwa³a nieprzerwanie d³u¿ej ni¿ rok, punkty mo¿na przyznaæ sobie jedynie raz"
+        "description": "(1 punkt za ka¿de stowarzyszenie)"
         },
         {
         "name":"opieka nad studenckim ruchem naukowym",
         "points":"1",
         "maxPoints":"?",
-        "description": "je¿eli w okresie ocenianym dana aktywnoœæ trwa³a nieprzerwanie d³u¿ej ni¿ rok, punkty mo¿na przyznaæ sobie jedynie raz"
+        "description": ""
         },
         {
         "name":"prace powierzone przez rektora lub dziekana na okres kadencji (np. funkcje pe³nomocników)",
         "points":"1,5",
         "maxPoints":"?",
-        "description": "je¿eli w okresie ocenianym dana aktywnoœæ trwa³a nieprzerwanie d³u¿ej ni¿ rok, punkty mo¿na przyznaæ sobie jedynie raz"
+        "description": ""
         },
         {
         "name":"prace (zadania) powierzone przez rektora, dziekana lub kierownika jednostki organizacyjnej",
         "points":"1",
         "maxPoints":"?",
-        "description": "je¿eli w okresie ocenianym dana aktywnoœæ trwa³a nieprzerwanie d³u¿ej ni¿ rok, punkty mo¿na przyznaæ sobie jedynie raz"
+        "description": ""
         },
         {
         "name":"opieka nad studenckim ruchem stowarzyszeniowym (samorz¹dem, organizacjami kulturalnymi, sportowymi i turystycznymi)",
         "points":"0,5",
         "maxPoints":"?",
-        "description": "je¿eli w okresie ocenianym dana aktywnoœæ trwa³a nieprzerwanie d³u¿ej ni¿ rok, punkty mo¿na przyznaæ sobie jedynie raz"
+        "description": ""
         },
         {
         "name":"inna dzia³alnoœæ niewymieniona w ankiecie",
         "points":"0,2",
         "maxPoints":"?",
-        "description": "0,2 punktu za ka¿d¹ wymienion¹ dzia³alnoœæ, ³¹cznie nie wiêcej ni¿ 1,5 pkt w okresie 4 lat; je¿eli w okresie ocenianym dana aktywnoœæ trwa³a nieprzerwanie d³u¿ej ni¿ rok, punkty mo¿na przyznaæ sobie jedynie raz"
+        "description": "0,2 punktu za ka¿d¹ wymienion¹ dzia³alnoœæ, ³¹cznie nie wiêcej ni¿ 1,5 pkt w okresie 4 lat;"
         }
 ]
-
  
 
  

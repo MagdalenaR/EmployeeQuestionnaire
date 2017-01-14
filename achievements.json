@@ -15,19 +15,19 @@
         "short":"NB2",
         "name":"Realizowane projekty badawcze i projekty celowe oraz umowy z innymi podmiotami",
         "points":"0",
-        "description":"Realizowane w okresie ocenianym projekty badawcze i projekty celowe oraz umowy z innymi podmiotami"
+        "description":"punkty nale¿y przyznawaæ tylko raz w ca³ym okresie trwania projektu; podana iloœæ punktów dzielona jest pomiêdzy wszystkich cz³onków zaspo³u przy czym indywidualny udzia³ nie mo¿e przekroczyæ 50% iloœci przewidzianych punktów"
         },
         {
         "short":"NB3",
         "name":"Uzyskanie nagród i wyró¿nieñ miêdzynarodowych i krajowych",
         "points":"0",
-        "description":"Uzyskanie nagród i wyró¿nieñ miêdzynarodowych i krajowych"
+        "description":"liczba punktów dzielona przez liczbê cz³onków zespo³u"
         },
         {
         "short":"NB4",
         "name":"Publikacje naukowe recenzowane i referaty na konferencjach",
         "points":"0",
-        "description":"Publikacje naukowe recenzowane i referaty na konferencjach"
+        "description":"wymagana afiliacja P£"
         },
         {
         "short":"NB4a",
@@ -39,25 +39,25 @@
         "short":"NB5",
         "name":"Monografie naukowe, podrêczniki akademickie",
         "points":"0",
-        "description":"Monografie naukowe, podrêczniki akademickie"
+        "description":"wymagana afiliacja P£; ³¹czna liczba punktów za poszczególne rozdzia³y nie mo¿e przekraczaæ liczby punktów za ca³¹ monografiê"
         },
         {
         "short":"NB6",
         "name":"Opatentowane wynalazki, prawa ochronne na wzory u¿ytkowe (tak¿e wspó³autorstwo)",
         "points":"0",
-        "description":"Opatentowane wynalazki, prawa ochronne na wzory u¿ytkowe (tak¿e wspó³autorstwo)"
+        "description":"podana iloœæ punktów dzielona jest pomiêdzy wszystkich cz³onków zaspo³u przy czym indywidualny udzia³ nie mo¿e przekroczyæ 50% iloœci przewidzianych punktów"
         },
         {
         "short":"NB7",
         "name":"Wdro¿enia",
         "points":"0",
-        "description":"Wdro¿enia"
+        "description":"kierownik otrzymuje max. 50% punktów, pozosta³a iloœæ punktów jest  dzielona wœród wykonawców"
         },
         {
         "short":"NB8",
         "name":"Uzyskane œrodki finansowe dla P£",
         "points":"0",
-        "description":"Uzyskane œrodki finansowe dla P£, pozyskane ze wszelkich Ÿróde³ poza dotacjami celowymi, grantami badawczymi, wdro¿eniami, licencjami, udokumentowane fakturami lub innymi dokumentami"
+        "description":"Uzyskane œrodki finansowe dla P£, pozyskane ze wszelkich Ÿróde³ poza dotacjami celowymi, grantami badawczymi, wdro¿eniami, licencjami, udokumentowane fakturami lub innymi dokumentami; przy projektach zespo³owych punkty nale¿y podzieliæ pomiêdzy cz³onków zespo³u"
         },
         {
         "short":"NB9",
@@ -69,6 +69,6 @@
         "short":"ORG",
         "name":"Uczestnictwo w pracach organizacyjnych Uczelni",
         "points":"0",
-        "description":"Uczestnictwo w pracach organizacyjnych Uczelni"
+        "description":"je¿eli w okresie ocenianym dana aktywnoœæ trwa³a nieprzerwanie d³u¿ej ni¿ rok, punkty mo¿na przyznaæ sobie jedynie raz"
         }
 ]

@@ -14,6 +14,7 @@ import javax.swing.table.DefaultTableModel;
 
 import controller.Utils;
 import model.Achievement;
+import model.AchievementsCategory;
 
 import java.awt.event.MouseAdapter;
 import javax.swing.JPanel;
@@ -22,59 +23,65 @@ import java.awt.event.ActionListener;
 import java.awt.event.ActionEvent;
 import javax.swing.JLabel;
 import java.awt.Font;
+import java.awt.Point;
 import java.awt.SystemColor;
+import java.awt.Window;
+
 import javax.swing.border.LineBorder;
 
-public class MainWindowView extends JFrame {
+public class MainWindow extends JFrame {
 
-	public static final List<Achievement> resultList = new ArrayList<Achievement>();
 	private static final long serialVersionUID = 1L;
-	private JTable table1;
 
-	@SuppressWarnings("serial")
-	public MainWindowView(Object[][] objects) {
+	private List<AchievementsCategory> achievementsCategory = Utils.readDataFromJsonFile();
+	private Object[][] objects = Utils.listToArray(achievementsCategory);
+	private List<Window> windows = createWindowsList();
+	private int numberOfWindow;
 
+	public MainWindow() {
+
+		// create panel
 		JPanel panel = new JPanel();
 		panel.setBackground(SystemColor.control);
-		getContentPane().add(panel, BorderLayout.NORTH);
 		panel.setPreferredSize(new Dimension(550, 400));
 		panel.setLayout(null);
+		getContentPane().add(panel, BorderLayout.NORTH);
 
-		table1 = new JTable() {
+		// create labels
+		JLabel lblCategoryOf = new JLabel("Kategorie osi\u0105gni\u0119\u0107");
+		lblCategoryOf.setFont(new Font("Tahoma", Font.BOLD, 13));
+		lblCategoryOf.setBounds(22, 23, 160, 27);
+		panel.add(lblCategoryOf);
 
-			// Implement table cell tool tips.
+		JLabel lblGotPoints = new JLabel("Zdobyte punkty");
+		lblGotPoints.setFont(new Font("Tahoma", Font.BOLD, 13));
+		lblGotPoints.setBounds(656, 23, 102, 27);
+		panel.add(lblGotPoints);
+
+		// create table
+		JTable table1 = new JTable() {
 			public String getToolTipText(MouseEvent e) {
 				String tip = null;
-				java.awt.Point p = e.getPoint();
-				int rowIndex = rowAtPoint(p);
-
 				try {
-					tip = objects[rowIndex][4].toString();
+					tip = objects[rowAtPoint(e.getPoint())][4].toString();
 				} catch (RuntimeException e1) {
-					// catch null pointer exception if mouse is over an empty
-					// line
+					e1.getMessage();
 				}
 				return tip;
 			}
 		};
+
 		table1.setShowGrid(false);
 		table1.setBorder(new LineBorder(SystemColor.control));
 		table1.setBackground(SystemColor.control);
 		table1.setPreferredScrollableViewportSize(new Dimension(450, 450));
 		table1.setBounds(22, 61, 736, 192);
-		panel.add(table1);
 
 		table1.addMouseListener(new MouseAdapter() {
 			@Override
 			public void mouseClicked(MouseEvent e) {
-				java.awt.Point p = e.getPoint();
-				int rowIndex = table1.rowAtPoint(p);
-				if (rowIndex == 0) {
-					new DDWindowView(Utils.readDataFromJsonFile("achievements.json"), Utils.readDataFromJsonFile("educationalAchievements.json"));
-				}
-				if (rowIndex == 1) {
-					new NB1WindowView(Utils.readDataFromJsonFile("achievements.json"), Utils.readDataFromJsonFile("educationalAchievements.json"));
-				}
+				numberOfWindow = table1.rowAtPoint(e.getPoint());
+				openWindow(numberOfWindow);
 			}
 		});
 
@@ -87,6 +94,12 @@ public class MainWindowView extends JFrame {
 			}
 		});
 
+		table1.getColumnModel().getColumn(0).setPreferredWidth(30);
+		table1.getColumnModel().getColumn(1).setPreferredWidth(600);
+		table1.getColumnModel().getColumn(2).setPreferredWidth(30);
+		panel.add(table1);
+
+		// create buttons
 		JButton btnSaveToFile = new JButton("Zapisz raport do pliku");
 		btnSaveToFile.setBounds(578, 348, 180, 25);
 		panel.add(btnSaveToFile);
@@ -95,28 +108,41 @@ public class MainWindowView extends JFrame {
 		btnShowReport.setBounds(22, 348, 160, 25);
 		panel.add(btnShowReport);
 
-		JLabel lblCategoryOf = new JLabel("Kategorie osi\u0105gni\u0119\u0107");
-		lblCategoryOf.setFont(new Font("Tahoma", Font.BOLD, 13));
-		lblCategoryOf.setBounds(22, 23, 160, 27);
-		panel.add(lblCategoryOf);
-
-		JLabel lblGotPoints = new JLabel("Zdobyte punkty");
-		lblGotPoints.setFont(new Font("Tahoma", Font.BOLD, 13));
-		lblGotPoints.setBounds(656, 23, 102, 27);
-		panel.add(lblGotPoints);
-		
 		btnSaveToFile.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent arg0) {
-				Utils.writeDataToJsonFile(resultList);
+				// Utils.writeDataToJsonFile(resultList);
 			}
 		});
 
-		table1.getColumnModel().getColumn(0).setPreferredWidth(30);
-		table1.getColumnModel().getColumn(1).setPreferredWidth(600);
-		table1.getColumnModel().getColumn(2).setPreferredWidth(30);
-
+		// create window parameters
 		setSize(800, 450);
 		setDefaultCloseOperation(HIDE_ON_CLOSE);
 		setVisible(true);
+		setLocation(new Point(200, 100));
 	}
+
+	public void openWindow(int i) {
+		windows.get(i).setVisible(true);
+	}
+
+	public List<Window> createWindowsList() {
+
+		List<Window> windows = new ArrayList<Window>();
+
+		for (int i = 0; i < achievementsCategory.size(); i++) {
+			windows.add(new CategoryWindow(achievementsCategory.get(i), this));
+		}
+		return windows;
+	}
+
+	public int getNumberOfWindow() {
+		return numberOfWindow;
+	}
+
+	public void setNumberOfWindow(int numberOfWindow) {
+		this.numberOfWindow = numberOfWindow;
+	}
+
+
+	
 }

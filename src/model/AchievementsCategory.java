@@ -1,18 +1,23 @@
 package model;
 
+import java.util.List;
+
 import controller.Utils;
 
-public class Achievement {
+public class AchievementsCategory {
 
+	private String shortName;
 	private String name;
-	private String gainedPoints;
 	private String points;
-	private String maxPoints;
 	private String description;
+	private List<Achievement> achievementsList;
 
-	public Achievement(String name, String points) {
-		this.name = name;
-		this.points = points;
+	public String getShortName() {
+		return shortName;
+	}
+
+	public void setShortName(String shortName) {
+		this.shortName = shortName;
 	}
 
 	public String getName() {
@@ -31,14 +36,6 @@ public class Achievement {
 		this.points = points;
 	}
 
-	public String getMaxPoints() {
-		return maxPoints;
-	}
-
-	public void setMaxPoints(String maxPoints) {
-		this.maxPoints = maxPoints;
-	}
-
 	public String getDescription() {
 		return Utils.checkLength(description);
 	}
@@ -47,12 +44,16 @@ public class Achievement {
 		this.description = description;
 	}
 
-	public String getGainedPoints() {
-		return gainedPoints;
+	public List<Achievement> getAchievementsList() {
+		return achievementsList;
 	}
 
-	public void setGainedPoints(String gainedPoints) {
-		this.gainedPoints = gainedPoints;
+	public void setAchievementsList(List<Achievement> achievementsList) {
+		this.achievementsList = achievementsList;
+	}
+
+	public Object[] toObjectArray() {
+		return new Object[] { getShortName(), getName(), getPoints() };
 	}
 
 }
