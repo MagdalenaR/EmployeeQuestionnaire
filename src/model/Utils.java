@@ -1,47 +1,68 @@
-package model;
+package controller;
 
 import java.io.FileReader;
-import java.util.ArrayList;
+import java.io.IOException;
+import java.io.Reader;
 import java.util.List;
+import java.util.regex.Pattern;
 
-import org.json.simple.JSONArray;
-import org.json.simple.JSONObject;
-import org.json.simple.parser.JSONParser;
+import com.google.gson.Gson;
+import com.google.gson.reflect.TypeToken;
+
+import model.AchievementsCategory;
 
 public class Utils {
 
-	public static List<Achievement> readDataFromJsonFile() {
+	public static List<AchievementsCategory> readDataFromJsonFile() {
 
-		JSONParser parser = new JSONParser();
+		Gson gson = new Gson();
 
-		try {
+		try (Reader reader = new FileReader("example.json")) {
 
-			JSONArray achievementsFromFile = (JSONArray) parser.parse(new FileReader("achievements.json"));
+			List<AchievementsCategory> list = gson.fromJson(reader, new TypeToken<List<AchievementsCategory>>() {
+			}.getType());
+			return list;
 
-			List<Achievement> achievementsList = new ArrayList<Achievement>();
-
-			for (Object obj : achievementsFromFile) {
-				JSONObject jsonObject = (JSONObject) obj;
-				achievementsList.add(new Achievement(jsonObject.get("short"), jsonObject.get("name"),
-						jsonObject.get("score"), jsonObject.get("description")));
-			}
-			return achievementsList;
-
-		} catch (Exception e) {
+		} catch (IOException e) {
 			e.printStackTrace();
 		}
-
 		return null;
 
 	}
 
-	public static Object[][] listToArray(List<Achievement> achievementsList) {
+	public static Object[][] listToArray(List<AchievementsCategory> achievementsList) {
 
 		Object[][] array = new Object[achievementsList.size()][];
 		for (int i = 0; i < achievementsList.size(); i++) {
 			array[i] = achievementsList.get(i).toObjectArray();
 		}
 		return array;
+	}
+	
+	public static String checkLength(String text) {
+
+		//return "<html>" + text + "</html>";
+		return text;
+	}
+	
+	public static int checkIntFormat(String numberOfTitles) {
+		int number=0;
+		if(numberOfTitles != null) {
+			if(Pattern.matches("[0-9]",numberOfTitles)) {
+				number = new Integer(numberOfTitles);
+			}
+		}
+		return number;
+	}
+	
+	public static double checkDoubleFormat(String numberString) {
+		double number=0;
+		if(numberString != null) {
+			if(Pattern.matches("[0-9]{3}.[0-9]",numberString)) {
+				number = new Double(numberString);
+			}
+		}
+		return number;
 	}
 
 }
