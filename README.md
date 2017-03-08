@@ -1,6 +1,13 @@
-# EmployeeQuestionnaire
+### EmployeeQuestionnaire
 
-Aby uruchomić aplikację należy:
+# Praca inżynierska
+
+*Opis projektu:*
+
+Aplikacja jest częścią praktyczną pracy inzynierskiej na temat: "System wspomagający uzupełnianie ankiet pracowniczych".
+
+*Aby uruchomić aplikację należy:*
+
 * zainstalować aktualną wersję środowiska programistycznego (JDK) oraz uruchomieniowego (JRE) dla języka Java;
 * zainstalować program Eclipse w aktualnej wersji;
 * zaimportować projekt jako projekt maven'owy;
