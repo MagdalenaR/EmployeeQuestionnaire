@@ -1,6 +1,4 @@
-### EmployeeQuestionnaire
-
-# Praca inżynierska
+# EmployeeQuestionnaire
 
 *Opis projektu:*
 
