@@ -1,10 +1,7 @@
 package view;
 
-import java.awt.Dimension;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
-import java.util.ArrayList;
-import java.util.List;
 
 import javax.swing.JButton;
 import javax.swing.JCheckBox;
@@ -13,74 +10,97 @@ import javax.swing.JOptionPane;
 import javax.swing.JPanel;
 import javax.swing.JScrollPane;
 
+import controller.Calculations;
 import controller.Utils;
 import model.AchievementsCategory;
+import model.SpecificAchievement;
 
 public class EditWindowImpl extends EditWindow {
-	
+
 	private static final long serialVersionUID = 1L;
-	private List<JLabel> lblList = new ArrayList<JLabel>();
-	private List<String> achievementsFromUserList = new ArrayList<String>();
-	
+
 	public EditWindowImpl(String nameOfAchievement, AchievementsCategory achievementsCategory, JLabel newPnt) {
 		super(nameOfAchievement, achievementsCategory, newPnt);
-		addAchievements();
+		addAchievements(achievementsCategory);
 	}
 
-	public void addAchievements() {
+	private void addAchievements(AchievementsCategory achievementsCategory) {
 
 		JScrollPane scrollPane = new JScrollPane();
-		scrollPane.setBounds(147, 126, 620, 111);
+		scrollPane.setBounds(135, 125, 627, 185);
 		getContentPane().add(scrollPane);
 
-		JPanel panel = new JPanel();
+		panel = new JPanel();
 		scrollPane.setViewportView(panel);
 		panel.setLayout(null);
 
-		//po przyznaniu punktow trzeba czyscic checkBozy
+		if (!achievement.getSpecyficAchievementsList().isEmpty())
+			fillPanel(achievement.getSpecyficAchievementsList());
+
 		JButton btnAddTitles = new JButton("Dodaj");
 		btnAddTitles.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
-				
-				JCheckBox chckbxKierownik = new JCheckBox("Kierownik");
-				JCheckBox chckbxWykonawca = new JCheckBox("Wykonawca");
-				
-				chckbxKierownik.addActionListener(new ActionListener() {
+
+				JCheckBox chckbxManager = new JCheckBox("Kierownik");
+				JCheckBox chckbxPerformer = new JCheckBox("Wykonawca");
+
+				getContentPane().repaint();
+				getContentPane().validate();
+
+				chckbxManager.addActionListener(new ActionListener() {
 					public void actionPerformed(ActionEvent arg0) {
-						chckbxWykonawca.setSelected(false);
-						int amount = Utils.checkIntFormat(JOptionPane.showInputDialog("Podaj dok³adn¹ kwotê:"));
+						chckbxPerformer.setSelected(false);
+						if (Utils.checkDoubleFormat(lblSetGainedPoints.getText())) {
+
+							String achievementFromUser = JOptionPane.showInputDialog("Podaj nazwê:");
+							if (achievementFromUser == null)
+								achievementFromUser = "";
+							if (!achievementFromUser.equals("")) {
+
+								lblSetGainedPoints.setText(Calculations
+										.implCalculationManager(Double.parseDouble(lblSetGainedPoints.getText())));
+								achievementsFromUserList
+										.add(new SpecificAchievement(achievementFromUser, Calculations.actualPoints));
+								fillPanel(achievementsFromUserList);
+							}
+
+						} else
+							JOptionPane.showMessageDialog(null, "Niepoprawny format podanych danych",
+									"Niepoprawy format", JOptionPane.WARNING_MESSAGE);
+						chckbxManager.setSelected(false);
 					}
 				});
-				chckbxKierownik.setBounds(12, 132, 113, 25);
-				getContentPane().add(chckbxKierownik);
-				
-				chckbxWykonawca.addActionListener(new ActionListener() {
+				chckbxManager.setBounds(12, 180, 113, 25);
+				getContentPane().add(chckbxManager);
+
+				chckbxPerformer.addActionListener(new ActionListener() {
 					public void actionPerformed(ActionEvent e) {
-						chckbxKierownik.setSelected(false);
-						int quantity = Utils.checkIntFormat(JOptionPane.showInputDialog("Podaj iloœæ wykonawców:"));
-						int amount = Utils.checkIntFormat(JOptionPane.showInputDialog("Podaj dok³adn¹ kwotê:"));
+						chckbxManager.setSelected(false);
+						if (Utils.checkDoubleFormat(lblSetGainedPoints.getText())) {
+
+							String achievementFromUser = JOptionPane.showInputDialog("Podaj nazwê:");
+							if (achievementFromUser == null)
+								achievementFromUser = "";
+							if (!achievementFromUser.equals("")) {
+
+								lblSetGainedPoints.setText(Calculations
+										.implCalculationPerformer(Double.parseDouble(lblSetGainedPoints.getText())));
+								achievementsFromUserList
+										.add(new SpecificAchievement(achievementFromUser, Calculations.actualPoints));
+								fillPanel(achievementsFromUserList);
+							}
+						} else
+							JOptionPane.showMessageDialog(null, "Niepoprawny format podanych danych",
+									"Niepoprawy format", JOptionPane.WARNING_MESSAGE);
+						chckbxPerformer.setSelected(false);
 					}
 				});
-				chckbxWykonawca.setBounds(12, 162, 113, 25);
-				getContentPane().add(chckbxWykonawca);
+				chckbxPerformer.setBounds(12, 200, 113, 25);
+				getContentPane().add(chckbxPerformer);
 
-				String achievementFromUser = JOptionPane.showInputDialog("Podaj nazwê:");
-				achievementsFromUserList.add(achievementFromUser);
-
-				int j = 10;
-				for (int i = 0; i < achievementsFromUserList.size(); i++) {
-					JLabel lbl = new JLabel(achievementsFromUserList.get(i));
-					lbl.setBounds(12, j, 565, 22);
-					panel.add(lbl);
-					lblList.add(lbl);
-					j += 25;
-				}
-				panel.setPreferredSize(new Dimension(610, achievementsFromUserList.size() * 35));
-				repaint();
-				revalidate();
 			}
 		});
-		btnAddTitles.setBounds(12, 93, 103, 25);
+		btnAddTitles.setBounds(15, 125, 103, 25);
 		getContentPane().add(btnAddTitles);
 	}
 

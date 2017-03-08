@@ -21,7 +21,7 @@ public class AchievementsCategory {
 	}
 
 	public String getName() {
-		return Utils.checkLength(name);
+		return name;
 	}
 
 	public void setName(String name) {

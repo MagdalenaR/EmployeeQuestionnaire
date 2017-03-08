@@ -1,5 +1,7 @@
 package model;
 
+import java.util.List;
+
 import controller.Utils;
 
 public class Achievement {
@@ -9,14 +11,10 @@ public class Achievement {
 	private String points;
 	private String maxPoints;
 	private String description;
-
-	public Achievement(String name, String points) {
-		this.name = name;
-		this.points = points;
-	}
+	private List<SpecificAchievement> specyficAchievementsList;
 
 	public String getName() {
-		return Utils.checkLength(name);
+		return name;
 	}
 
 	public void setName(String name) {
@@ -53,6 +51,14 @@ public class Achievement {
 
 	public void setGainedPoints(String gainedPoints) {
 		this.gainedPoints = gainedPoints;
+	}
+
+	public List<SpecificAchievement> getSpecyficAchievementsList() {
+		return specyficAchievementsList;
+	}
+
+	public void setSpecyficAchievementsList(List<SpecificAchievement> list1) {
+		this.specyficAchievementsList = list1;
 	}
 
 }
